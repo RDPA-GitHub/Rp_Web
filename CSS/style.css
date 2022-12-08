@@ -1,6 +1,6 @@
 /* CSS File */
-/* Universal Selector */
+/* Class Selector */
 
-* {
-  color: purple;
+.Cat-Lists{
+  color: chocolate;
 }
