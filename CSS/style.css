@@ -1,6 +1,9 @@
 /* CSS File */
-/* Image Size */
+/* Border around an element */
 
 .Cat-Images {
   width: 200px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: double;
 }
