@@ -1,9 +1,6 @@
 /* CSS File */
-/* Border around an element */
+/* Rounded Borders */
 
-.Cat-Images {
-  width: 200px;
-  border-width: 5px;
-  border-color: blue;
-  border-style: double;
+.Rounded-Borders{
+  border-radius: 20px;
 }
