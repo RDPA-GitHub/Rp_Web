@@ -1,6 +1,6 @@
 /* CSS File */
-/* Rounded Image */
+/* Background of a div */
 
-.Rounded-Borders{
-  border-radius: 50%;
+.List-Container {
+  background-color: silver;
 }
