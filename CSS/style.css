@@ -1,15 +1,6 @@
 /* CSS File */
-/* Font - Size */
+/* Image Size */
 
-h2 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h3 {
-  font-family: 'Ephesis', cursive;
-  font-size: 23px;
-}
-
-a {
-  font-family: 'Gemunu Libre', sans-serif;
+.Cat-Images {
+  width: 200px;
 }
