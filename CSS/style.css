@@ -1,6 +1,25 @@
 /* CSS File */
-/* Background of a div */
+/* Attribute Id in CSS */
 
-.List-Container {
-  background-color: silver;
+#Cat-Apps-Title {
+  font-size: 30px;
+  color: green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Cat-Images {
+  border-radius: 50%;
+  border-color: brown;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#List-Cat-Love {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+#List-Cat-Hate {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
