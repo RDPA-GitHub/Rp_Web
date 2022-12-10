@@ -1,13 +1,16 @@
 /* CSS File */
-/* Margin in one Line */
+/* Margin vs Padding */
 div {
-  background-color: crimson;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
 }
 
 img {
-  margin: 20px 15px;
-  background-color: yellow;
-  border-width: 2px;
-  border-color: white;
+  margin: 25px;
+  padding: 25px;
+ 
+  border-width: 4px;
+  border-color: black;
   border-style: solid;
 }
