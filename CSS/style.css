@@ -1,16 +1,19 @@
 /* CSS File */
-/* Margin vs Padding */
-div {
-  border-width: 4px;
-  border-color: black;
-  border-style: solid;
+/* Attribute Selector */
+img[alt] {
+  border-radius: 50%;
 }
 
-img {
-  margin: 25px;
-  padding: 25px;
- 
-  border-width: 4px;
-  border-color: black;
-  border-style: solid;
+[type="radio"] {
+  margin: 8px;
+}
+
+input[type="checkbox"] {
+  margin: 8px;
+}
+
+a[href="https://www.freecodecamp.org/"] {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
 }
