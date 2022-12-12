@@ -1,7 +1,22 @@
 /* CSS File */
-/* Apply Style to Body */
+/* Prioritizes one style over another */
 
 body {
   background-color: rgb(150, 176, 188);
-  color: chocolate;
+}
+
+.Blue-Text {
+  color: blue;
+}
+
+.Purple-Text{
+  color: purple;
+}
+
+/*.No-Underline {
+  text-decoration: none;
+}*/
+
+a {
+  text-decoration: purple wavy underline;
 }
