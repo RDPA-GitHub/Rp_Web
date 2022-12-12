@@ -1,35 +1,7 @@
 /* CSS File */
-/* Absolute and Relative Units */
+/* Apply Style to Body */
 
 body {
-  background-color: silver;
-}
-
-#Main-Container {
-  color: white;
-  padding: 5px;
-  font-size: 10px;
-  background-color: yellow;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
-
-.rectangle {
-  margin: 5px;
-  padding: 5px;
-}
-
-.px {
-  background-color: crimson;
-  width: 200px;
-}
-
-.vw {
-  background-color: darkmagenta;
-  width: 20vw;
-}
-
-.em {
-  background-color: green;
-  width: 15em;
-  font-size: 1.5em;
+  background-color: rgb(150, 176, 188);
+  color: chocolate;
 }
