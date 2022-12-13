@@ -1,14 +1,21 @@
 /* CSS File */
-/* Inline Style Priority */
+/* Hexadecimal Color Code */
 
 body {
   background-color: rgb(150, 176, 188);
 }
 
-.Blue-Text {
-  color: blue !important;
+h2 {
+  color: #EBA234;
 }
 
-#title {
-  color: black;
+img {
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #EB4034;
+}
+
+a {
+  color: #154BD4;
 }
