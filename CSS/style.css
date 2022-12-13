@@ -1,16 +1,14 @@
 /* CSS File */
-/* Priority Class vs Id */
+/* Inline Style Priority */
 
 body {
   background-color: rgb(150, 176, 188);
 }
 
-#link-main {
-  color: green;
-  text-decoration: green wavy underline;
+.Blue-Text {
+  color: blue !important;
 }
 
-.No-Underline {
-  color: blue;
-  text-decoration: none;
+#title {
+  color: black;
 }
