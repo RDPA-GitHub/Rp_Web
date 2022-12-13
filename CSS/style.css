@@ -1,22 +1,16 @@
 /* CSS File */
-/* Prioritizes one style over another */
+/* Priority Class vs Id */
 
 body {
   background-color: rgb(150, 176, 188);
 }
 
-.Blue-Text {
+#link-main {
+  color: green;
+  text-decoration: green wavy underline;
+}
+
+.No-Underline {
   color: blue;
-}
-
-.Purple-Text{
-  color: purple;
-}
-
-/*.No-Underline {
   text-decoration: none;
-}*/
-
-a {
-  text-decoration: purple wavy underline;
 }
