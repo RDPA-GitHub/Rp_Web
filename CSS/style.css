@@ -1,21 +1,25 @@
 /* CSS File */
-/* Hexadecimal Color Code */
+/* Abbreviate Hexadecimal Codes */
 
 body {
   background-color: rgb(150, 176, 188);
 }
 
+div {
+  background-color: #0FF;
+}
+
 h2 {
-  color: #EBA234;
+  color: #F00;
 }
 
 img {
   border-radius: 50%;
   border-width: 3px;
   border-style: solid;
-  border-color: #EB4034;
+  border-color: #0F0;
 }
 
 a {
-  color: #154BD4;
+  color: #F0F;
 }
