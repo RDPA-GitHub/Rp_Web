@@ -1,10 +1,14 @@
-/* Backup Values */
+/* Cross Browser Support */
 
 .Penguin {
+/* Variable */
   --Belly-Penguin: white;
   --Beak-Penguin: orange;
-  --Skin-Penguin: gray;
+  --Skin-Penguin: black;
   --Cheek-Penguin: pink;
+  --Eye-Penguin: black;
+  --Reflex: white;
+/* ------------------------------------------------------------------------------------------------ */
   position: relative;
   margin: auto;
   display: block;
@@ -16,7 +20,8 @@
 .Upper-Penguin {
   top: 10%;
   left: 25%;
-  background: var(--Skin-Penguin);
+  background: black;
+  background: var(--Skin-Penguin, black);
   width: 50%;
   height: 45%;
   border-radius: 70% 70% 60% 60%;
@@ -25,7 +30,8 @@
 .Lower-Penguin {
   top: 40%;
   left: 23.5%;
-  background: var(--Skin-Penguin);
+  background: black;
+  background: var(--Skin-Penguin, black);
   width: 53%;
   height: 45%;
   border-radius: 70% 70% 100% 100%;
@@ -34,7 +40,8 @@
 .Right-Hand {
   top: 0%;
   left: -5%;
-  background: var(--Skin-Penguin);
+  background: black;
+  background: var(--Skin-Penguin, black);
   width: 30%;
   height: 60%;
   border-radius: 30% 30% 120% 30%;
@@ -45,7 +52,8 @@
 .Left-Hand {
   top: 0%;
   left: 75%;
-  background: var(--Skin-Penguin);
+  background: black;
+  background: var(--Skin-Penguin, black);
   width: 30%;
   height: 60%;
   border-radius: 30% 30% 30% 120%;
@@ -56,7 +64,8 @@
 .Right-Cheek {
   top: 15%;
   left: 35%;
-  background: var(--Belly-Penguin,white);
+  background: white;
+  background: var(--Belly-Penguin, white);
   width: 60%;
   height: 70%;
   border-radius: 70% 70% 60% 60%;
@@ -65,6 +74,7 @@
 .Left-Cheek {
   top: 15%;
   left: 5%;
+  background: white;
   background: var(--Belly-Penguin, white);
   width: 60%;
   height: 70%;
@@ -74,7 +84,8 @@
 .Belly {
   top: 60%;
   left: 2.5%;
-  background: var(--Belly-Penguin,white);
+  background: white;
+  background: var(--Belly-Penguin, white);
   width: 95%;
   height: 100%;
   border-radius: 120% 120% 100% 100%;
@@ -83,6 +94,7 @@
 .Right-Foot {
   top: 85%;
   left: 60%;
+  background: orange;
   background: var(--Beak-Penguin, orange);
   width: 15%;
   height: 30%;
@@ -94,6 +106,7 @@
 .Left-Foot {
   top: 85%;
   left: 25%;
+  background: orange;
   background: var(--Beak-Penguin, orange);
   width: 15%;
   height: 30%;
@@ -106,6 +119,7 @@
   top: 45%;
   left: 60%;
   background: black;
+  background: var(--Eye-Penguin, black);
   width: 15%;
   height: 17%;
   border-radius: 50%;
@@ -115,6 +129,7 @@
   top: 45%;
   left: 25%;
   background: black;
+  background: var(--Eye-Penguin, black);
   width: 15%;
   height: 17%;
   border-radius: 50%;
@@ -124,6 +139,7 @@
   top: 25%;
   left: 15%;
   background: white;
+  background: var(--Reflex, white);
   width: 35%;
   height: 35%;
   border-radius: 50%;
@@ -132,6 +148,7 @@
 .Right-Color-Cheek {
   top: 65%;
   left: 15%;
+  background: purple;
   background: var(--Cheek-Penguin, purple);
   width: 15%;
   height: 10%;
@@ -141,6 +158,7 @@
 .Left-Color-Cheek {
   top: 65%;
   left: 70%;
+  background: purple;
   background: var(--Cheek-Penguin, purple);
   width: 15%;
   height: 10%;
@@ -150,6 +168,7 @@
 .Upper-Beak {
   top: 60%;
   left: 40%;
+  background: orange;
   background: var(--Beak-Penguin, orange);
   width: 20%;
   height: 10%;
@@ -159,6 +178,7 @@
 .Lower-Beak {
   top: 65%;
   left: 42%;
+  background: orange;
   background: var(--Beak-Penguin, orange);
   width: 16%;
   height: 10%;
