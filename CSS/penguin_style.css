@@ -1,9 +1,10 @@
-/* Create CSS Variable */
+/* Backup Values */
 
 .Penguin {
   --Belly-Penguin: white;
   --Beak-Penguin: orange;
   --Skin-Penguin: gray;
+  --Cheek-Penguin: pink;
   position: relative;
   margin: auto;
   display: block;
@@ -131,7 +132,7 @@
 .Right-Color-Cheek {
   top: 65%;
   left: 15%;
-  background: pink;
+  background: var(--Cheek-Penguin, purple);
   width: 15%;
   height: 10%;
   border-radius: 50%;
@@ -140,7 +141,7 @@
 .Left-Color-Cheek {
   top: 65%;
   left: 70%;
-  background: pink;
+  background: var(--Cheek-Penguin, purple);
   width: 15%;
   height: 10%;
   border-radius: 50%;
