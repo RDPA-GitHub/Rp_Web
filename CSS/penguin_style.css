@@ -3,7 +3,7 @@
 
 :root {
   /* Variable */
-  --Belly-Penguin: white;
+  --Belly-Penguin: pink;
   --Beak-Penguin: orange;
   --Skin-Penguin: black;
   --Cheek-Penguin: pink;
@@ -22,6 +22,7 @@ body {
 /* ---------------------------------------------------------------------------------------------------------- */
 
 .Penguin {
+  --Belly-Penguin: white;
   position: relative;
   margin: auto;
   display: block;
